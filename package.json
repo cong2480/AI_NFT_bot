@@ -1,0 +1,17 @@
+{
+  "name": "ai_nft_bot",
+  "version": "1.0.0",
+  "description": "LLM-assisted valuation based NFT trading bot",
+  "main": "scripts/ai_nft_bot.js",
+  "scripts": {
+    "test": "node scripts/ai_nft_bot.js"
+  },
+  "author": "Sicong Li",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.4",
+    "opensea-js": "^7.0.9",
+    "ethers": "^6.10.0",
+    "web3": "^4.5.0"
+  }
+}
