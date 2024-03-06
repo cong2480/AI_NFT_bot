@@ -252,4 +252,5 @@ async function main() {
     console.log(`"Bid value of NFT ${targetNFT} should be ${bidValue}"`);
     await makeoffer(targetNFT_tokenID, targetNFT, bidValue);
 }
+
 main();
